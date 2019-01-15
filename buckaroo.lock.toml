@@ -62,11 +62,11 @@ revision = "d812ed3ac7c7d573249e49fe23aa12339629c730"
 
 [lock."github.com/buckaroo-pm/boost-lexical_cast"]
 versions = [ "branch=master" ]
-revision = "44a6ac24b7a1f3dbe39e6a7dfeb120e7d5606f94"
+revision = "20923e98187932b0b886b756ee243277649a2ff7"
 
 [lock."github.com/buckaroo-pm/boost-math"]
 versions = [ "branch=master" ]
-revision = "8f4f24c25ab0ce22c93b81738f70302113ed11de"
+revision = "f073e8d2d0a462c1c465a0311792ef2ea3e587e4"
 
 [lock."github.com/buckaroo-pm/boost-mpl"]
 versions = [ "branch=master" ]

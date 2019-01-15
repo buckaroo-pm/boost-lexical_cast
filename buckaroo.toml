@@ -1,6 +1,10 @@
 targets = [ "//:lexical-cast" ]
 
 [[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+version = "branch=master"
+
+[[dependency]]
 package = "github.com/buckaroo-pm/boost-container"
 version = "branch=master"
 

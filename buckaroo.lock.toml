@@ -1,4 +1,8 @@
-manifest = "cf83f418997528a258cd06f251d5691258f4e930869f24693d1ac96937a6dbed"
+manifest = "63dafac580a8b2f9b73cb22f205a0d0d61cec0973f32b02f1eb965afa5a11d1b"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-container"
@@ -11,6 +15,10 @@ target = "//:numeric-conversion"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-range"
 target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "branch=master" ]
+revision = "ea0eab9a8cf538aa81a7d53f1762a5ff7e628e73"
 
 [lock."github.com/buckaroo-pm/boost-assert"]
 versions = [ "branch=master" ]

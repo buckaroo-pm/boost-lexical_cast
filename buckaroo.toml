@@ -9,6 +9,10 @@ package = "github.com/buckaroo-pm/boost-container"
 version = "branch=master"
 
 [[dependency]]
+package = "github.com/buckaroo-pm/boost-math"
+version = "branch=master"
+
+[[dependency]]
 package = "github.com/buckaroo-pm/boost-numeric_conversion"
 version = "branch=master"
 

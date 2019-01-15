@@ -1,4 +1,4 @@
-manifest = "63dafac580a8b2f9b73cb22f205a0d0d61cec0973f32b02f1eb965afa5a11d1b"
+manifest = "de80ffcfaadd766c098717d65a18c186b49b3595bab4988683555272d70be95e"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-array"
@@ -7,6 +7,10 @@ target = "//:array"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-container"
 target = "//:container"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-math"
+target = "//:math"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-numeric_conversion"
@@ -55,6 +59,14 @@ revision = "5badcf5b232a15e89d0701bef687ffbe70398696"
 [lock."github.com/buckaroo-pm/boost-intrusive"]
 versions = [ "branch=master" ]
 revision = "d812ed3ac7c7d573249e49fe23aa12339629c730"
+
+[lock."github.com/buckaroo-pm/boost-lexical_cast"]
+versions = [ "branch=master" ]
+revision = "44a6ac24b7a1f3dbe39e6a7dfeb120e7d5606f94"
+
+[lock."github.com/buckaroo-pm/boost-math"]
+versions = [ "branch=master" ]
+revision = "8f4f24c25ab0ce22c93b81738f70302113ed11de"
 
 [lock."github.com/buckaroo-pm/boost-mpl"]
 versions = [ "branch=master" ]

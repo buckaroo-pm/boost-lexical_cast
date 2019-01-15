@@ -4,10 +4,14 @@ manifest = "791f7c26a32a670f150111e5d8ac3f72678b6d84c979b5be966ff10d01f8d07c"
 package = "github.com/buckaroo-pm/boost-container"
 target = "//:container"
 
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "branch=master" ]
+revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
+
 [lock."github.com/buckaroo-pm/boost-container"]
 versions = [ "branch=master" ]
-revision = "a5b5d9d020d8e06e1cd311ee14e0cbc04557d6bf"
+revision = "fb0dbf2f863db4b7dfc9e3cff17319e2d0a6a3df"
 
 [lock."github.com/buckaroo-pm/boost-intrusive"]
 versions = [ "branch=master" ]
-revision = "5d18cdbcb05444b888687b0546112bef2e4d13c6"
+revision = "d812ed3ac7c7d573249e49fe23aa12339629c730"

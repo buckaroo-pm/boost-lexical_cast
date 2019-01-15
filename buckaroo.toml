@@ -3,3 +3,7 @@ targets = [ "//:lexical-cast" ]
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-container"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+version = "branch=master"

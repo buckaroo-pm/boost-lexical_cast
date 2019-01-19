@@ -22,7 +22,7 @@ revision = "ea0eab9a8cf538aa81a7d53f1762a5ff7e628e73"
 
 [lock."github.com/buckaroo-pm/boost-assert"]
 versions = [ "branch=master" ]
-revision = "fc4d65435c49b5b4fbbf0d4867ee8f69bfd42ef1"
+revision = "417f80abf86251b29609a9747dae7756236699aa"
 
 [lock."github.com/buckaroo-pm/boost-concept_check"]
 versions = [ "branch=master" ]

@@ -1,0 +1,65 @@
+manifest = "22aecc2b837396481ec9cb2c6555ed5857f763b1079efa03e944c2c1783b95c4"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.32.0" ]
+revision = "3069cf805a25bace3a94033fc1bce540a77b68c1"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.32.0" ]
+revision = "3cf5fae00f1679041b38dde38c59cb00fe829095"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.32.0" ]
+revision = "e5568ba0d052a0f81d93328d0e233167b3a0210a"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.32.0" ]
+revision = "748a263ebf5f23d60f0af1716368d84251bf1f39"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.32.0" ]
+revision = "11db8b6f6fef76191752a812092b03e6cf9feec7"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.32.0" ]
+revision = "12a6f2820e5fdb8fd571d1dbf4b95ca1a5b32a2e"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.32.0" ]
+revision = "549dc87860964e2c4dce5f7b64907bc85426a11a"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.32.0" ]
+revision = "6603dbac53e6ab318dde3158dd1bf52e911cb480"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.32.0" ]
+revision = "c231ec4059c26c890e22aead63a38f6e6c1b5d08"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.32.0" ]
+revision = "fa6ff0c54215dc7fd66dc3bf9889fe1b01edd1c3"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.32.0" ]
+revision = "8a0849570d4a6139767b43978a5f944040cb4c87"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.32.0" ]
+revision = "c24fe2ccfaa5c9f492b578edde614575cd549a68"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.32.0" ]
+revision = "2cd833906186499f5aa6fc699cc57bee20a049d7"

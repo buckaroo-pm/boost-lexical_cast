@@ -1,0 +1,65 @@
+manifest = "6dfdacbc8679ec4e85d870477628149f4a7d7cfdfa989802ce5a9357855a25b5"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.42.0" ]
+revision = "99807e58de8a836a6d3294dda25bb28da74a3d7d"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.42.0" ]
+revision = "4cb01a54b241d50e94f59af6cc67a7fd37e3fc2a"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.42.0" ]
+revision = "bdbfd4f7cb2eb6f0a1d87672c0564f4909c4cb20"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.42.0" ]
+revision = "782ecf1ed3fb2e1eecf9b7cc91c596886d6f2acf"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.42.0" ]
+revision = "32665b4a77378e96b1fd6ffb722d75c514f8122e"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.42.0" ]
+revision = "094e96a9c4abbc8465bf19aff847aeb4571f1223"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.42.0" ]
+revision = "904ab8e0e55830ec80beec6e456230376dc277aa"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.42.0" ]
+revision = "17fea580b295fbe9d66cb15a81cfb154138eb377"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.42.0" ]
+revision = "ad64e4e9f85cad0ed501c3eaf0faba2a9bfc3dc3"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.42.0" ]
+revision = "829385c8e37fb29ab8439ce9c8f3341140dddee4"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.42.0" ]
+revision = "12ae8c5bf22e2da1edfcf02390b69d59c25c1001"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.42.0" ]
+revision = "d3cb1586ec0bb62cbe3cbfb8eadf4f759379fce6"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.42.0" ]
+revision = "a2a9c13756d2bbe292bd0855d3c100f684559d26"

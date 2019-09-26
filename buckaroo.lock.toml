@@ -1,0 +1,65 @@
+manifest = "2bb8fe7385f0c87cda3400b16a90a16d393bbcf3b9f7f2f2561373e7fc0abf66"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.39.0" ]
+revision = "facb1d9c5577a9a5735c7609ce232c9ee889239d"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.39.0" ]
+revision = "eb4ad60cdc89bc3de6f020085165a9527a145034"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.39.0" ]
+revision = "8d2669c973073bf1be4238a318c2784dd0999630"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.39.0" ]
+revision = "478a355bb52452bc27d16e2b68cf6677e09f3c96"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.39.0" ]
+revision = "b7532201aec046e3b320266f7e5fd73f3d972d5e"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.39.0" ]
+revision = "a36fe53bafc0fc5545b1613c1fd4c7370683e12c"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.39.0" ]
+revision = "ba671e727ae7f4bd49b38dd9afa94851bfa2b106"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.39.0" ]
+revision = "80483b7a8841bdf84a2ef7b4468df0fd48e4077f"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.39.0" ]
+revision = "87e9eb41400a0eb04cfb81af1be42d1179b09b8b"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.39.0" ]
+revision = "4eec76990f5dc380cd7e6e8106796ce91c5568f5"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.39.0" ]
+revision = "aa9b48173569be31a060373000a54287e15422b8"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.39.0" ]
+revision = "8afc104545d5cc4b9c164af7d5a274cfa9b87eb5"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.39.0" ]
+revision = "b0fa2ea398061b68b61f92cfbb5f952a9b4f9d20"

@@ -1,4 +1,4 @@
-manifest = "3563733ac3cfe2935f7f3c56ddf50313b770c37edb7c322ce9471aef817bc7f1"
+manifest = "338dae1852966ebbac9392065adbfeb43c0a78abefd4c9da5d733489a4e4f2f6"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-array"

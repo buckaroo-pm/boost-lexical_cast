@@ -1,0 +1,65 @@
+manifest = "df6710809b096abe6b5d49c7b177782aa315b56cbcee753c7e6f0e556cdf2a23"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.46.1" ]
+revision = "3eb1f9753f09f1b0a6a602ada3392ad828f86a10"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.46.1" ]
+revision = "6ae7209423064d62ff0670a4172e77d41ca555aa"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.46.1" ]
+revision = "72805600b44f7e4b63be95f755d9bd3f6507a031"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.46.1" ]
+revision = "a216a8a0d4ca8e9a0106992dac0d491de7831dcd"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.46.1" ]
+revision = "118f07e0b14205cffb36b80d695c595e9869b0c1"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.46.1" ]
+revision = "b46c22e77dc49a7f77e02a406d6beb8be414eb41"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.46.1" ]
+revision = "16432f1bc3ab0a200007edb7ca84c61a5dbc8aef"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.46.1" ]
+revision = "9ac97675af59867b0cd552376bdbafd1ac659589"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.46.1" ]
+revision = "76d2b93451ed144b54015f921ee5273473bb8796"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.46.1" ]
+revision = "6b07a5b3c541b1601d788d0f4188e9de11ad475f"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.46.1" ]
+revision = "dda6fcaf4a79f8eebd3ad253c73f5b684e413d7d"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.46.1" ]
+revision = "53791bee68fb0891b2e0b0755373281e40e981e7"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.46.1" ]
+revision = "2e67178d6d53e47f930452c635a9602e70d36821"

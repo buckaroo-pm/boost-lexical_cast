@@ -1,0 +1,65 @@
+manifest = "9a3bd910dc78347220698a38795f90b404f7132dbfbb5ce38e0b9f164f29796b"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.46.0" ]
+revision = "7eb283e39cea262acc0f10a1d0ab91be79ea347b"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.46.0" ]
+revision = "6574f0d92e66baec2173a63306a471214751627c"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.46.0" ]
+revision = "f5014d32618a7f0475d365fda1a3a27fa0bf7936"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.46.0" ]
+revision = "861bbfb9dabfd181e0644d01427d086c9f3ac996"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.46.0" ]
+revision = "08e0a80083386445393a6ba2a83db15b4405ed61"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.46.0" ]
+revision = "a769870f06d364cc7d652345daf9d3f06db78c53"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.46.0" ]
+revision = "16d340567094bb84cf75884a0e15aec6ac7fc457"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.46.0" ]
+revision = "33e056b847ecb3c21c4bb48d3ef8854ece4ae9e5"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.46.0" ]
+revision = "5381582829b28f4ddf1eb0b291a67b2944af6216"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.46.0" ]
+revision = "ff236f0f874253b143e138a19b957b670ebf0295"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.46.0" ]
+revision = "f5cace1ce1013c1756a5f9534a5531aec4df979a"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.46.0" ]
+revision = "a51d14ee53e3baed03edc73a2b65be437e08a051"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.46.0" ]
+revision = "31df061de84e38c1d5c20d3f7f99c1235dc15123"

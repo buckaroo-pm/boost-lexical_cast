@@ -1,0 +1,65 @@
+manifest = "ce310bb3ed77ad02f22ac065b316c55a11285408325fcc7619207f78f67a66cf"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.45.0" ]
+revision = "f90acfc6380913acb366fd11d803897fbf5e7aa1"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.45.0" ]
+revision = "edfe5bc94c9c8b56184163d375331a3ed1554505"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.45.0" ]
+revision = "c384784d1a187830227d6a85d2523c0e38638c14"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.45.0" ]
+revision = "96561410668228736849713863602e64d8a754e9"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.45.0" ]
+revision = "2168b43164d04f034da11b49d4a99fb5716c73df"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.45.0" ]
+revision = "da1143dfb1d3889076cc505720b69fb41847f15e"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.45.0" ]
+revision = "468ae8cb9aa90201393288ee04e9dc6f53d10346"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.45.0" ]
+revision = "58dd51de11f4d599f74d9bb0823764ff6e49146c"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.45.0" ]
+revision = "fffd8ca323ef48485338d5309ad34ee2db2e3896"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.45.0" ]
+revision = "177d9868e77c936950e7f45c95dfd503ad2fe900"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.45.0" ]
+revision = "c5bf66364dece4a13b786b9787b1e1e82b9e9135"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.45.0" ]
+revision = "9c4c130376b7f79605548f62c55b143d08d3b97f"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.45.0" ]
+revision = "147f0523d041a72d613b466fbd8cfad4bbf4c55f"

@@ -1,0 +1,65 @@
+manifest = "a37d356531fde28ae825d389123de07d535d1b8203ff390c223c3bba41fae2d5"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.40.0" ]
+revision = "7a5b3c831ac29df2dfa0fc72b0e5c6e7618e56b7"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.40.0" ]
+revision = "b604138debe404e7bf0b569cd10f26e9ee7eacba"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.40.0" ]
+revision = "3a9079edc4b058e42495a36ca7cbdc20675a64e3"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.40.0" ]
+revision = "e71d7a0f72b577ee4f5dd702dfed18709ed72681"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.40.0" ]
+revision = "8bda4592d2b32baf52ed50ed5809501a11beee71"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.40.0" ]
+revision = "f74b6424bae4e16ae8d4fed110629f0b1b0b97c6"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.40.0" ]
+revision = "de9686fcb97b50df91738745ab92c4d18f301c05"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.40.0" ]
+revision = "f5364d27aadbc9c757a48f46c3df6dce6302331b"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.40.0" ]
+revision = "85f257f138e6eae7e61906452db3ed2158f6def9"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.40.0" ]
+revision = "ff3d14c91ae999514b8b9739c9354ac629345fc3"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.40.0" ]
+revision = "bd7e994a6782500e1b4fb1ccf7b92a3aafef3bc4"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.40.0" ]
+revision = "2da091c54485dc8752239107764d88a5f7b1bf71"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.40.0" ]
+revision = "a5e367c300434776e7092bb296db4deffb3160bb"

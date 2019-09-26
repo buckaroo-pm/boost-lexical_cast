@@ -1,4 +1,4 @@
-targets = ["//:lexical-cast"]
+targets = ["//:lexical_cast"]
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-array"

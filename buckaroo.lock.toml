@@ -1,0 +1,65 @@
+manifest = "647b153ffa680e8ab7fe1c11ad99e863a43b428d9ab299a6cabf2905d8c55f3d"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.47.0" ]
+revision = "36a860f8e72c1c42fdf424e31dddb8ede71b2897"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.47.0" ]
+revision = "33a80f8f05e7f9cafe3856cfd9c9bbbec7229321"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.47.0" ]
+revision = "f6585b1993077d3de95ebcf766e3346b8aebb490"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.47.0" ]
+revision = "f39e5671b0d09010441b6549031deb68b7c75d44"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.47.0" ]
+revision = "32eb9a6b12b5b39a766f8e722630b1dcdb2b385b"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.47.0" ]
+revision = "8be9e2eb3920ec7a67ce20ec5d99347454841402"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.47.0" ]
+revision = "6d3c6abf89ab50189d64df492a69cd398c50d10f"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.47.0" ]
+revision = "3cdb91e3183d92704349777dcd3cd283e2908f3d"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.47.0" ]
+revision = "5b15e9b0092d3fccfb29c8baa352116f4c4575bd"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.47.0" ]
+revision = "2fce47fceabb93c2978ad41af69eea12e5b90b8d"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.47.0" ]
+revision = "b17cd5bfcc8eb6cde44203dde758b9776586a75a"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.47.0" ]
+revision = "52f57f55eac32e2e80f4d21d1886af41f3b150b7"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.47.0" ]
+revision = "b7fbc18ef514db7a608c92e1eb887033f1ceee4d"

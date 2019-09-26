@@ -1,0 +1,65 @@
+manifest = "c90daac2067bdff27f427a00e7b9a0c15b6d51913c3053461b2add5815d4bce4"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.34.0" ]
+revision = "1e8f93d5a815fbea127cd9d8ea0cbdbb792d62af"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.34.0" ]
+revision = "1274c9a2aea715db35a4a19615aadc1b0f785302"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.34.0" ]
+revision = "a826516fbfc9407906d7407d5efb9f0f849fed22"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.34.0" ]
+revision = "708c06ea8f4330ce2221d5b2e53443dd6a480a2f"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.34.0" ]
+revision = "b3ce89a0bda80631f7764d94afe17d4f11dbcd8b"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.34.0" ]
+revision = "aa80c8db51c8be9c637e0cc7d75f01b82023383b"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.34.0" ]
+revision = "4b64c03239b1ee02f5aee473161264a4ec7f3476"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.34.0" ]
+revision = "6ff6835ae0f07e00964bcb93d1f9516fa54dd303"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.34.0" ]
+revision = "fdfd364ad468b1c0a2cbac72ca56b7dd47914815"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.34.0" ]
+revision = "56d7c5af1f57a1f9225d43cfeb04fb1e315cdff9"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.34.0" ]
+revision = "a445c529654974ad6e292f62f98329c583416aba"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.34.0" ]
+revision = "651b4428316f0018ba6b08bb2d18940685339fc0"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.34.0" ]
+revision = "bb59acf26aa27c145ae24f10ce8b471173e09ffc"

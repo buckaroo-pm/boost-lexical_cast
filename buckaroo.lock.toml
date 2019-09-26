@@ -1,0 +1,25 @@
+manifest = "3563733ac3cfe2935f7f3c56ddf50313b770c37edb7c322ce9471aef817bc7f1"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.30.0" ]
+revision = "3a2fb7f8bedff0b4cf63b98ad4b1aeba89a59a0f"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.30.0" ]
+revision = "95f590da8eb5534e7a02b750ef5a5487e8f5a799"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.30.0" ]
+revision = "83b29b8b518ba5c6ffa205e7c484ac06b226d7d7"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.30.0" ]
+revision = "cb31d4d23e3d73c99054f7349f1cbc9a90e70367"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.30.0" ]
+revision = "f99e6877ad72672942fefa948cb582ec069cabba"

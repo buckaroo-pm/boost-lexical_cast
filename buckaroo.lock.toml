@@ -1,0 +1,13 @@
+manifest = "2ae57cf1288e360e2f5d9beb618413fa771060a23a02d3fd54371d68c64a43d0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.18.3" ]
+revision = "562abee5a2d75d41dcdf91ab57a747c93d63de9a"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.18.3" ]
+revision = "1b1749271198bc9eaae81e349875abc0881f6b05"

@@ -1,0 +1,65 @@
+manifest = "58e3c6d5ed306704f183a17fec8a985c9d1fa6b374c1ab1e2213475ea04fb11a"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.37.0" ]
+revision = "a0951a67b9b3791fc7470c40a06bdd20a71783af"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.37.0" ]
+revision = "b1cd07f5c6c63c6497c84f2c3870f4e21d16fb44"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.37.0" ]
+revision = "382491ee558eb6ed57c07f89b4b2683d16302035"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.37.0" ]
+revision = "1cce8dff4e3ef3520b0ce494097cc601383750ca"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.37.0" ]
+revision = "9300904f6182bf0eef08ccc1f4a741e6adb05dd5"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.37.0" ]
+revision = "1ee4e105c631fcfbb983512a0bbc9d13bd18a328"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.37.0" ]
+revision = "8b5b4e8dc13e9d183fbb1ba1e0bd5cac2392b908"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.37.0" ]
+revision = "b73790a7e6992a1500c01e3e1785341675801425"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.37.0" ]
+revision = "e76146842ef3f36bed72c9087e459881af447bd6"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.37.0" ]
+revision = "1f94555a170789f6d61094e8d60a0238ce6376b8"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.37.0" ]
+revision = "7ee93eef9bd8d83a44a07ba625b6310a038cba9f"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.37.0" ]
+revision = "4302dffe038e23f3a4c130bae0a3fcc5c90483b0"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.37.0" ]
+revision = "d0c435c778f3a810a8ecd7cfe8f651f5222763ce"

@@ -1,0 +1,65 @@
+manifest = "08d1498f7de7f78790a28b14f9b2d79105c5a9a19fd58deb606aabdf0d1d6044"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.33.0" ]
+revision = "d67ad2dbf578dd4648eadd30af3c36cf0384d947"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.33.0" ]
+revision = "d4adfbf5fc840b078d1da95ccf5b3cfc70a59bf0"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.33.0" ]
+revision = "65a8650af82725f556021c523cb3a87f6b93c268"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.33.0" ]
+revision = "40ad58a6eec511d5c9b370e6316df7d27e2ed0ab"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.33.0" ]
+revision = "79ac7fe07fd054fe8f01ee37010f21b4ac221ea9"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.33.0" ]
+revision = "42c8c0ca17b7f13b759ac1b8817a88754c947d6a"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.33.0" ]
+revision = "50dc46a76c7b171f3296f2f81f6c9548edbfb1df"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.33.0" ]
+revision = "e5274ff525cb7b68a00b7d9f2f384887cd84416b"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.33.0" ]
+revision = "13db417fd9a81f2558365e854caf8d42a9100289"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.33.0" ]
+revision = "ab4c920a85a064a78bed2e40cf2781723cbdc1e8"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.33.0" ]
+revision = "4acae7173fa1e199cb9bbe0d13bd447e60f5f23d"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.33.0" ]
+revision = "4f62fa95b94166f6c54732ee7e93c53ea6f25e9a"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.33.0" ]
+revision = "e72e3ac9deee3c943a9864d9d171e17df30532cc"

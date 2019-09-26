@@ -1,0 +1,13 @@
+targets = ["//:lexical-cast"]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+version = "1.35.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+version = "1.35.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+version = "1.35.0"

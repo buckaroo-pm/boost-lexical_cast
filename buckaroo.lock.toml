@@ -1,0 +1,65 @@
+manifest = "1a1699730f89f6a6a08507e2f666040719802360ed7bda3f294ece10d598f283"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-array"
+target = "//:array"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-numeric_conversion"
+target = "//:numeric_conversion"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-range"
+target = "//:range"
+
+[lock."github.com/buckaroo-pm/boost-array"]
+versions = [ "1.35.0" ]
+revision = "73cf0bdf8b0a5b38eb840951e4c0cfcd770a3f5b"
+
+[lock."github.com/buckaroo-pm/boost-concept_check"]
+versions = [ "1.35.0" ]
+revision = "95165007aa5e95490580f43d1a6de9082eea7ea9"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.35.0" ]
+revision = "a71e4983666230295b605f9ec2f0d00b5166498d"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.35.0" ]
+revision = "693fb62875f39d0ff647596c2a585dce0b80cc17"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.35.0" ]
+revision = "d989fbc4b6b721bf088e4863048305740d016ab1"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.35.0" ]
+revision = "20604d0842de80e82f53922cc916819f5d5c9227"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.35.0" ]
+revision = "756a256bc8fbca85c0f993297aa175deed922767"
+
+[lock."github.com/buckaroo-pm/boost-numeric_conversion"]
+versions = [ "1.35.0" ]
+revision = "f559f865dd619cf7cdd103e3aaac74e7e27003a7"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.35.0" ]
+revision = "e91dd8b3dad1bf6663444aad6e1c79253c6584b4"
+
+[lock."github.com/buckaroo-pm/boost-range"]
+versions = [ "1.35.0" ]
+revision = "0e8f8d6f30f980c1b94b99f32acb27838871e96a"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.35.0" ]
+revision = "0e70c106c9c4dc55bb453228ea88e1b6fb282768"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.35.0" ]
+revision = "5ea4e0555566bb1e59ce5a544fc3a66ca1404281"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.35.0" ]
+revision = "0c09b760bbb16e57a06dd87534f33c0a882f789b"
